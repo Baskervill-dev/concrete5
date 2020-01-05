@@ -20,9 +20,9 @@ RUN apt-get update && \
     
 # Find latest download details at https://www.concrete5.org/get-started
 # - for newer version: change Concrete5 version# & download url & md5
-ENV CONCRETE5_VERSION 8.5.1
-ENV C5_URL https://www.concrete5.org/download_file/-/view/109615/
-ENV C5_MD5 6416841232a8e6719555fc688246fa8a
+ENV CONCRETE5_VERSION 8.5.2
+ENV C5_URL https://www.concrete5.org/download_file/-/view/111592/
+ENV C5_MD5 cac55f8d64034652fd8631a0b069cb9e
 # nano and other commands will not work without this
 ENV TERM xterm
 
